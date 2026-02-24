@@ -1,6 +1,6 @@
 #!/bin/bash
 # Simple CLI Calculator (v0.1)
-
+VERSION="1.0"
 if [ "$1" = "add" ]; then
   echo $(( $2 + $3 ))
 elif [ "$1" = "sub" ]; then
