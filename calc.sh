@@ -8,5 +8,5 @@ elif [ "$1" = "sub" ]; then
 elif [ "$1" = "mul" ]; then
   echo $(( $2 * $3 ))
 else
-  echo "Usage: ./calc.sh add|sub <num1> <num2>  (v1 develop branch)"
+  echo "Usage: ./calc.sh [add|sub|mul] <num1> <num2>)"
 fi
